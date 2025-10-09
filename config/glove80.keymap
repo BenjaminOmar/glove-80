@@ -141,5 +141,16 @@
 
             label = "movement";
         };
+
+        layer_4 {
+            bindings = <
+&none  &none                                  &none                    &none                &none                                                                                                      &none                    &none                     &none         &none                 &none
+&none  &none                                  &none                    &none                &none              &none                                                               &none               &none                    &none                     &none         &none                 &none
+&none  &kp LS(NUMBER_4)                       &kp NB_LESS_THAN         &kp NB_GREATER_THAN  &kp NB_UNDERSCORE  &kp LA(N7)                                                          &kp NB_AMPERSAND    &kp RS(RA(NB_N8))        &kp RS(RA(NB_N9))         &kp NB_EQUAL  &kp RA(SINGLE_QUOTE)  &none
+&none  &kp NB_DOUBLE_QUOTES                   &kp LA(NB_SINGLE_QUOTE)  &kp NB_SEMICOLON     &kp NB_COLON       &kp NB_SLASH                                                        &kp NB_QUESTION     &kp NB_LEFT_PARENTHESIS  &kp NB_RIGHT_PARENTHESIS  &kp NB_PLUS   &kp NB_SQT            &none
+&none  &mt LA(LC(LG(LEFT_SHIFT))) LEFT_SHIFT  &none                    &none                &kp NB_HASH        &kp NB_ASTERISK  &none  &none  &none  &none  &none           &none  &kp NB_EXCLAMATION  &kp NB_LEFT_BRACKET      &kp NB_RIGHT_BRACKET      &kp NB_MINUS  &none                 &none
+&none  &none                                  &none                    &none                &none                               &none  &none  &none  &none  &kp NB_PERCENT  &none                      &none                    &none                     &none         &none                 &none
+            >;
+        };
     };
 };
