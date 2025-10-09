@@ -124,7 +124,7 @@
 &none  &none                          &none                  &none                      &none                          &none                                                                                  &none         &none           &none           &none            &none  &none
 &none  &none                          &none                  &none                      &none                          &none                                                                                  &none         &kp HOME        &kp UP_ARROW    &kp END          &kp A  &kp B
 &none  &mt LEFT_CONTROL LEFT_CONTROL  &mt LEFT_ALT LEFT_ALT  &mt LEFT_SHIFT LEFT_SHIFT  &mt LEFT_COMMAND LEFT_COMMAND  &none                                                                                  &kp NB_PLUS   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp T  &kp D
-&none  &none                          &none                  &none                      &none                          &none  &kp LS(LC(LG(LEFT_ALT)))  &none                     &none  &none  &none  &none  &kp NB_MINUS  &kp E           &none           &kp E            &none  &none
+&none  &none                          &none                  &none                      &none                          &none  &kp LS(LC(LG(LEFT_ALT)))  &none                     &none  &none  &none  &none  &kp NB_MINUS  &kp E           &none           &kp F            &none  &none
 &none  &none                          &none                  &none                      &none                                 &kp LEFT_CONTROL          &kp LG(LC(LS(LEFT_ALT)))  &none  &none  &none  &none                &none           &none           &none            &none  &none
             >;
 
