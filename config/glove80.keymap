@@ -89,6 +89,27 @@
             #binding-cells = <0>;
             bindings = <&kp RC(B) &kp C>;
         };
+
+        tmux_kill_window: tmux_kill_window {
+            label = "TMUX_KILL_WINDOW";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RC(B) &kp NB_AMPERSAND>;
+        };
+
+        tmux_left_window: tmux_left_arrow {
+            label = "TMUX_LEFT_ARROW";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RC(B) &kp P>;
+        };
+
+        tmux_right_window: tmux_right_arrow {
+            label = "TMUX_RIGHT_ARROW";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp RC(B) &kp N>;
+        };
     };
 
     keymap {
