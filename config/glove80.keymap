@@ -142,7 +142,7 @@
             label = "movement";
         };
 
-        layer_4 {
+        mac_symbols {
             bindings = <
 &none  &none                                  &none                    &none                &none                                                                                                      &none                    &none                     &none         &none                 &none
 &none  &none                                  &none                    &none                &none              &none                                                               &none               &none                    &none                     &none         &none                 &none
@@ -151,6 +151,8 @@
 &none  &mt LA(LC(LG(LEFT_SHIFT))) LEFT_SHIFT  &none                    &none                &kp NB_HASH        &kp NB_ASTERISK  &none  &none  &none  &none  &none           &none  &kp NB_EXCLAMATION  &kp NB_LEFT_BRACKET      &kp NB_RIGHT_BRACKET      &kp NB_MINUS  &none                 &none
 &none  &none                                  &none                    &none                &none                               &none  &none  &none  &none  &kp NB_PERCENT  &none                      &none                    &none                     &none         &none                 &none
             >;
+
+            label = "symbols";
         };
     };
 };
