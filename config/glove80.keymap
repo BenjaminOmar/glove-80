@@ -186,11 +186,11 @@
 &none  &none                                  &none                    &none                &none                               &none  &none  &none  &none  &kp NB_PERCENT  &none                      &none                    &none                     &none         &none                 &none
             >;
 
-            label = "symbols";
+            label = "m_symbols";
         };
 
         win_symbols {
-            label = "symbols";
+            label = "w_symbols";
             bindings = <
 &none  &none                                  &none             &none                &none                                                                                                      &none                    &none                     &none         &none         &none
 &none  &none                                  &none             &none                &none              &none                                                               &none               &none                    &none                     &none         &none         &none
