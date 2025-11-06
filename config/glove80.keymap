@@ -154,12 +154,12 @@
         windows_base {
             label = "windows";
             bindings = <
-&none       &none           &none           &none             &none                                                                                                                                 &none                &none              &none            &none                     &none
-&none       &none           &none           &none             &none               &none                                                                                                    &none    &none                &none              &none            &none                     &none
-&none       &kp Q           &kp W           &kp E             &kp R               &kp T                                                                                                    &kp Y    &kp U                &kp I              &kp O            &kp P                     &kp NB_A_RING
-&mo 12      &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_CONTROL F  &lt 9 G                                                                                                  &lt 7 H  &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_GUI NB_O_SLASH  &kp NB_AE
-&mo 6       &kp Z           &kp X           &kp C             &kp V               &lt 12 B  &none        &none                 &none      &none          &none    &mt BACKSPACE BACKSPACE  &kp N    &kp M                &kp COMMA          &kp DOT          &kp NB_A_RING             &none
-&magic 0 0  &none           &none           &none             &lt 8 ESC                     &lt 5 SPACE  &mt LEFT_CONTROL TAB  &lt 8 ESC  &kp RA(RG(B))  &kp RET  &lt 3 BACKSPACE                   &kp RG(RA(B))        &none              &none            &none                     &none
+&none       &none           &none           &none             &none                                                                                                                             &none                &none              &none            &none                     &none
+&none       &none           &none           &none             &none           &none                                                                                                    &none    &none                &none              &none            &none                     &none
+&none       &kp Q           &kp W           &kp E             &kp R           &kp T                                                                                                    &kp Y    &kp U                &kp I              &kp O            &kp P                     &kp NB_A_RING
+&mo 12      &mt LEFT_GUI A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_GUI F  &lt 9 G                                                                                                  &lt 7 H  &mt RIGHT_CONTROL J  &mt RIGHT_SHIFT K  &mt RIGHT_ALT L  &mt RIGHT_GUI NB_O_SLASH  &kp NB_AE
+&mo 6       &kp Z           &kp X           &kp C             &kp V           &lt 12 B  &none        &none                 &none      &none          &none    &mt BACKSPACE BACKSPACE  &kp N    &kp M                &kp COMMA          &kp DOT          &kp NB_A_RING             &none
+&magic 0 0  &none           &none           &none             &lt 8 ESC                 &lt 5 SPACE  &mt LEFT_CONTROL TAB  &lt 8 ESC  &kp RA(RG(B))  &kp RET  &lt 3 BACKSPACE                   &kp RG(RA(B))        &none              &none            &none                     &none
             >;
         };
 
