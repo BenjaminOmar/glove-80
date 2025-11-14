@@ -213,7 +213,7 @@
             >;
         };
 
-        Misc {
+        Misc_mac {
             bindings = <
 &none  &none  &none       &none                 &none                                                                                                &none              &none            &none       &none       &none
 &none  &none  &none       &none                 &none                 &none                                                        &none             &none              &none            &none       &none       &none
@@ -223,7 +223,7 @@
 &none  &none  &none       &none                 &none                                    &none  &none  &none  &none  &none  &none                    &none              &none            &none       &none       &none
             >;
 
-            label = "misc";
+            label = "misc_mac";
         };
 
         Apps {
