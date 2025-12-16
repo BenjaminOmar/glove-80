@@ -125,6 +125,13 @@
             bindings = <&bt BT_SEL 1 &to 0>;
             label = "OS_WIN";
         };
+
+        qurly_left: qurly_left {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "QURLY_LEFT";
+        };
     };
 
     keymap {
@@ -204,12 +211,12 @@
         win_symbols {
             label = "w_symbols";
             bindings = <
-&none  &none                                  &none             &none                &none                                                                                                      &none                    &none                     &none         &none            &none
-&none  &none                                  &none             &none                &none              &none                                                               &none               &none                    &none                     &none         &none            &none
-&none  &kp DLLR                               &kp NB_LESS_THAN  &kp NB_GREATER_THAN  &kp NB_UNDERSCORE  &kp NB_PIPE                                                         &kp NB_AMPERSAND    &kp LBRC                 &kp RBRC                  &kp NB_EQUAL  &kp NB_EQUAL     &none
-&none  &kp NB_DOUBLE_QUOTES                   &kp NB_SQT        &kp NB_SEMICOLON     &kp NB_COLON       &kp NB_SLASH                                                        &kp NB_QUESTION     &kp NB_LEFT_PARENTHESIS  &kp NB_RIGHT_PARENTHESIS  &kp NB_PLUS   &mt NB_AT NB_AT  &none
-&none  &mt LA(LC(LG(LEFT_SHIFT))) LEFT_SHIFT  &kp NB_BACKSLASH  &none                &kp NB_HASH        &kp NB_ASTERISK  &none  &none  &none  &none  &none           &none  &kp NB_EXCLAMATION  &kp RC(RA(N8))           &kp RC(RA(N9))            &kp NB_MINUS  &none            &none
-&none  &none                                  &none             &none                &none                               &none  &none  &none  &none  &kp NB_PERCENT  &none                      &none                    &none                     &none         &none            &none
+&none  &none                                  &none             &none                &none                                                                                                      &none                            &none                              &none         &none            &none
+&none  &none                                  &none             &none                &none              &none                                                               &none               &none                            &none                              &none         &none            &none
+&none  &kp DLLR                               &kp NB_LESS_THAN  &kp NB_GREATER_THAN  &kp NB_UNDERSCORE  &kp NB_PIPE                                                         &kp NB_AMPERSAND    &mt NB_LEFT_BRACE NB_LEFT_BRACE  &mt NB_RIGHT_BRACE NB_RIGHT_BRACE  &kp NB_EQUAL  &kp NB_EQUAL     &none
+&none  &kp NB_DOUBLE_QUOTES                   &kp NB_SQT        &kp NB_SEMICOLON     &kp NB_COLON       &kp NB_SLASH                                                        &kp NB_QUESTION     &kp NB_LEFT_PARENTHESIS          &kp NB_RIGHT_PARENTHESIS           &kp NB_PLUS   &mt NB_AT NB_AT  &none
+&none  &mt LA(LC(LG(LEFT_SHIFT))) LEFT_SHIFT  &kp NB_BACKSLASH  &none                &kp NB_HASH        &kp NB_ASTERISK  &none  &none  &none  &none  &none           &none  &kp NB_EXCLAMATION  &kp RC(RA(N8))                   &kp RC(RA(N9))                     &kp NB_MINUS  &none            &none
+&none  &none                                  &none             &none                &none                               &none  &none  &none  &none  &kp NB_PERCENT  &none                      &none                            &none                              &none         &none            &none
             >;
         };
 
