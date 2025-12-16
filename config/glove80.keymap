@@ -130,11 +130,12 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
+                <&macro_pause_for_release>,
                 <&macro_press &kp LCTRL &kp LALT>,
-                <&macro_wait_time 10>,
+                <&macro_wait_time 50>,
                 <&macro_tap &kp N7>,
-                <&macro_release &kp LCTRL &kp LALT>,
-                <&macro_pause_for_release>;
+                <&macro_wait_time 50>,
+                <&macro_release &kp LCTRL &kp LALT>;
             label = "QURLY_LEFT";
         };
     };
